@@ -5,19 +5,17 @@ header {
   margin-bottom: 15px;
 
   .radar-title {
-    background-color: $grey-light;
+    background-color: $theme-orange;
     padding-top: 30px;
     padding-bottom: 30px;
-    display: table;
     margin: auto;
     width: 100%;
 
     .radar-title__text {
-      display: table-cell;
-      width: 70%;
-      text-align: left;
-      padding-left: 100px;
+      text-align: center;
+
       h1 {
+        color: $white;
         font-size: 55px;
         font-weight: 900;
         letter-spacing: -.04em;
